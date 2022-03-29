@@ -176,9 +176,6 @@ func parseNextTrimmed(n int, b []byte) (ValueTrimmed, int, error) {
 			case b[n] == '"':
 				n++
 				lit := Literal(b[n0:n:n])
-				if !lit.IsValid() {
-					return nil, n0, fmt.Errorf("invalid literal: %s", lit)
-				}
 				return lit, n, nil
 			}
 			n++
