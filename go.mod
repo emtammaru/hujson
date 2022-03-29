@@ -1,4 +1,4 @@
-module github.com/tailscale/hujson
+module github.com/emtammaru/hujson
 
 go 1.13
 
