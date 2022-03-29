@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"io"
 
-	json "github.com/tailscale/hujson/internal/hujson"
+	json "github.com/emtammaru/hujson/internal/hujson"
 )
 
 // Deprecated: Do not use. This will be deleted in the near future.
